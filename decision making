@@ -1,0 +1,37 @@
+#$include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int ch;
+clrscr();
+printf("Enter any number (1 to 7)");
+scanf("%d",&ch);
+switch(ch)
+{
+case  1:
+printf("pizza- Rs=239");
+break;
+case  2:
+printf("Burger- Rs=129");
+break;
+case  3:
+printf("Pasta- Rs=179");
+break;
+case  4:
+printf("French fries- Rs=9");
+break;
+case  5:
+printf("Sandwich- Rss=149");
+break;
+case  6:
+printf("Pizza burger combo- Rs=350");
+break;
+case  7:
+printf("French frices and sandfwich combo- Rs=130");
+break;
+default:
+printf("Only enter value 1 to 7");
+}
+getch();
+}
